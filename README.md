@@ -20,9 +20,11 @@ World Map – Visualize freedom scores on a global map for the latest year.
 
 Quality of Government (QoG) Data
  – Socioeconomic and governance indicators.
+ [QoG Data](https://www.gu.se/en/quality-government/qog-data/data-downloads/basic-dataset)
 
 Freedom House
  – Country-level internet and political freedom scores.
+ [Freedom House Dataset](https://freedomhouse.org)
 
 ## Insights
 
@@ -41,3 +43,16 @@ Clustering countries via PCA and K-Means identifies groups with similar socioeco
 Python (Pandas, Matplotlib, Seaborn, Plotly, Statsmodels)
 
 Streamlit for interactive dashboards
+
+## How to Run
+
+Clone this repository.
+
+Install dependencies:
+```
+pip install -r requirements.txt
+```
+Launch the dashboard:
+```
+streamlit run test.py
+```
